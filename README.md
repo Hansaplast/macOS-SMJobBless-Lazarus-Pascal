@@ -26,13 +26,16 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha) from SVN.
 
 1. Replace "**XXXXXXXXXX**" with your Developer ID in these files:
  
-   ***SMJobBlessTest/project1.app/Contents/Info.plist***
- 
-   ***SMJobBlessTest/Helper/SMJobBlessHelper-Info.plist***
+```
+SMJobBlessTest/project1.app/Contents/Info.plist
+SMJobBlessTest/Helper/SMJobBlessHelper-Info.plist
+```
 
 2. Replace "**John Doe (XXXXXXXXXX)**" with your Developer info in this file:
  
-   ***SMJobBlessTest/prepareproject1.sh***
+```
+SMJobBlessTest/prepareproject1.sh
+```
 
 3. Open the Helper Tool project **com.tweaking4all.SMJobBlessHelper.lpi** in Lazarus and compile it with "**Build**".
 
