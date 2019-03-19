@@ -22,7 +22,7 @@ Valid Apple Developer ID in order to sign the app bundle and the Helper Tool.
 Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha)
 
 
-## Before you start##
+## Before you start ##
 
 1. Replace "**XXXXXXXXXX**" with your Developer ID in these files:
 
@@ -30,7 +30,7 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha)
 
 *SMJobBlessTest/Helper/SMJobBlessHelper-Info.plist*
 
-2. Replace "**John Doe (XXXXXXXXXX)*" with your Developer info in this file:
+2. Replace "**John Doe (XXXXXXXXXX)**" with your Developer info in this file:
 
 *SMJobBlessTest/prepareproject1.sh*
 
