@@ -23,6 +23,8 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha) from SVN.
 
 
 ## Before you start ##
+I've uploaded a ZIP file that holds all files. Not the way GitHub should work, I know. Unfortunately, the project1.app structure seems to get lost when uploading empty directories, and we need those directories for things to work.
+I recommend downloading the zip file, and extracting that instead of cloning all files.
 
 1. Replace "**XXXXXXXXXX**" with your Developer ID in these files:
  
