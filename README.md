@@ -22,6 +22,7 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha)
 1. Replace "**XXXXXXXXXX**" with your Developer ID in these files:
 
 *SMJobBlessTest/project1.app/Contents/Info.plist*
+
 *SMJobBlessTest/Helper/SMJobBlessHelper-Info.plist*
 
 1. Replace "**John Doe (XXXXXXXXXX)*" with your Developer info in this file:
