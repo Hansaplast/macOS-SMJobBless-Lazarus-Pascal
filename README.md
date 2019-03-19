@@ -1,7 +1,7 @@
 # macOS-SMJobBless-Lazarus-Pascal
 How to create an privileged Helper Tool under macOS, with [Lazarus Pascal](https://www.lazarus-ide.org/), to get root acces in your application.
 
-A full description and a ton of information can be found on my homepage: 
+A full description and a ton of related information can be found on my homepage: 
 
 **English**: [MacOS - SMJobBless: Elevated Privileges in Lazarus Pascal](https://www.tweaking4all.com/software-development/lazarus-development/macos-smjobbless-elevated-privileges-lazarus-pascal/ "Tweaking4All - The main article I wrote about")
 
@@ -11,7 +11,7 @@ A full description and a ton of information can be found on my homepage:
 
 ***Purpose:***
 
-Simple example to create a Privileged Helper Tool using Lazarus Pascal, so your application can get root access by using such a Helper Tool.
+Simple example on how to create a Privileged Helper Tool using Lazarus Pascal, so your application can get root access by using such a Helper Tool.
 
 ***Requirement:***
 
@@ -31,7 +31,7 @@ SMJobBlessTest/project1.app/Contents/Info.plist
 SMJobBlessTest/Helper/SMJobBlessHelper-Info.plist
 ```
 
-2. Replace "**John Doe (XXXXXXXXXX)**" with your Developer info in this file:
+2. Replace "**John Doe (XXXXXXXXXX)**" with your Developer name and ID in this file:
  
 ```
 SMJobBlessTest/prepareproject1.sh
