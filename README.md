@@ -34,9 +34,9 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha) from SVN.
  
    ***SMJobBlessTest/prepareproject1.sh***
 
-3. Open the **com.tweaking4all.SMJobBlessHelper.lpi** project in Lazarus and compile it with "**Build**".
+3. Open the Helper Tool project **com.tweaking4all.SMJobBlessHelper.lpi** in Lazarus and compile it with "**Build**".
 
-4. Open the **project1.lpi** in Lazarus and compile it with "**Build**".
+4. Open the Main Application project **project1.lpi** in Lazarus and compile it with "**Build**".
 
 5. in Terminal, go to the "**SMJobBlessTest**" directory and run "**./prepareproject.sh**"
 
