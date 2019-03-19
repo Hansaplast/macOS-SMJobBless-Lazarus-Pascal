@@ -26,13 +26,13 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha) from SVN.
 
 1. Replace "**XXXXXXXXXX**" with your Developer ID in these files:
 
-***SMJobBlessTest/project1.app/Contents/Info.plist***
+...***SMJobBlessTest/project1.app/Contents/Info.plist***
 
-***SMJobBlessTest/Helper/SMJobBlessHelper-Info.plist***
+...***SMJobBlessTest/Helper/SMJobBlessHelper-Info.plist***
 
 2. Replace "**John Doe (XXXXXXXXXX)**" with your Developer info in this file:
 
-***SMJobBlessTest/prepareproject1.sh***
+...***SMJobBlessTest/prepareproject1.sh***
 
 3. Open the **com.tweaking4all.SMJobBlessHelper.lpi** project in Lazarus and compile it with "**Build**".
 
@@ -40,7 +40,7 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha) from SVN.
 
 5. in Terminal, go to the "**SMJobBlessTest**" directory and run "**./prepareproject.sh**"
 
-Optionally verify with
+...Optionally verify with
 ```bash
 ./SMJobBlessUtil.py check project1.app
 ```
