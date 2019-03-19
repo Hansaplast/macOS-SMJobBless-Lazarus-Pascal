@@ -1,5 +1,5 @@
 # macOS-SMJobBless-Lazarus-Pascal
-How to create an privileged Helper Tool under macOS, with Lazarus Pascal, to get root acces in your application.
+How to create an privileged Helper Tool under macOS, with [Lazarus Pascal](https://www.lazarus-ide.org/), to get root acces in your application.
 
 A full description and a ton of information can be found on my homepage: 
 
@@ -7,7 +7,7 @@ A full description and a ton of information can be found on my homepage:
 
 **Dutch**: [MacOS - SMJobBless: Elevated Privileges met Lazarus Pascal](https://www.tweaking4all.com/software-development/lazarus-development/macos-smjobbless-elevated-privileges-lazarus-pascal/ "Tweaking4All - Het hoofd artikel wat ik hierover heb geschreven")
 
-## SMJOBBLESS TEST FOR LAZARUS PASCAL ##
+## SmJoBBless and Elevated Privileges Helper Tool Example ##
 
 ***Purpose:***
 
@@ -72,4 +72,4 @@ ps -ax | grep com.tweaking4all
 sudo kill -9 <PID>
 ```
 
-Where <PID> is the PID from the "ps" line that had "com.tweaking4all.SMJobBlessHelper" in it.
+Where < PID > is the PID from the "ps" line that had "com.tweaking4all.SMJobBlessHelper" in it.
