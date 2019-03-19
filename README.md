@@ -15,11 +15,11 @@ Simple example to create a Privileged Helper Tool using Lazarus Pascal, so your 
 
 ***Requirement:***
 
-Valid Apple Developer ID in order to sign the app bundle and the Helper Tool.
+A valid Apple Developer ID in order to sign the app bundle and the Helper Tool.
 
 ***Tested and created with:***
 
-Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha)
+Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha) from SVN.
 
 
 ## Before you start ##
@@ -40,7 +40,10 @@ Lazarus 2.1.0 r60620M FPC 3.0.4 x86_64-darwin-cocoa (alpha)
 
 5. in Terminal, go to the "**SMJobBlessTest**" directory and run "**./prepareproject.sh**"
 
-Optionally verify with "./SMJobBlessUtil.py check project1.app"
+Optionally verify with
+```bash
+./SMJobBlessUtil.py check project1.app
+```
 
 6. Open **Console** (Applications/Utilities) and set the filter to "**SMJOBBLESS**"
 
@@ -72,4 +75,4 @@ ps -ax | grep com.tweaking4all
 sudo kill -9 <PID>
 ```
 
-Where < PID > is the PID from the "ps" line that had "com.tweaking4all.SMJobBlessHelper" in it.
+Where `<PID>` is the PID from the "ps" line that had "com.tweaking4all.SMJobBlessHelper" in it.
