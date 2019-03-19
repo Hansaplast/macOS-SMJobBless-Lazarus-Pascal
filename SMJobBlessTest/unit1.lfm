@@ -1,0 +1,127 @@
+object Form1: TForm1
+  Left = 619
+  Height = 387
+  Top = 154
+  Width = 807
+  Caption = 'Main Application (to test Helper Tool)'
+  ClientHeight = 387
+  ClientWidth = 807
+  OnClose = FormClose
+  LCLVersion = '2.1.0.0'
+  object btnInit: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = memoMessages
+    Left = 8
+    Height = 20
+    Top = 8
+    Width = 159
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    Caption = 'Initialize'
+    OnClick = btnInitClick
+    TabOrder = 0
+  end
+  object btnComplicatedTask: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = memoMessages
+    Left = 8
+    Height = 20
+    Top = 120
+    Width = 159
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    Caption = 'Start Complicated'
+    OnClick = btnComplicatedTaskClick
+    TabOrder = 1
+  end
+  object btnGetVersion: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = memoMessages
+    Left = 8
+    Height = 20
+    Top = 248
+    Width = 159
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = True
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    Caption = 'Get Version'
+    OnClick = btnGetVersionClick
+    TabOrder = 2
+  end
+  object memoMessages: TMemo
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 175
+    Height = 371
+    Top = 8
+    Width = 624
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 8
+    Lines.Strings = (    )
+    TabOrder = 3
+  end
+  object btnIsActive: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = memoMessages
+    Left = 8
+    Height = 25
+    Top = 280
+    Width = 159
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    Caption = 'Is Active?'
+    OnClick = btnIsActiveClick
+    TabOrder = 4
+  end
+  object btnAbort: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = memoMessages
+    Left = 8
+    Height = 25
+    Top = 152
+    Width = 159
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    Caption = 'Abort Complicated'
+    OnClick = btnAbortClick
+    TabOrder = 5
+  end
+  object btnLastError: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = memoMessages
+    Left = 8
+    Height = 25
+    Top = 312
+    Width = 159
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    Caption = 'Last Error'
+    OnClick = btnLastErrorClick
+    TabOrder = 6
+  end
+  object btnQuit: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = memoMessages
+    Left = 8
+    Height = 25
+    Top = 352
+    Width = 159
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    Caption = 'Quit Helper'
+    OnClick = btnQuitClick
+    TabOrder = 7
+  end
+end

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.tweaking4all.SMJobBlessHelper</string>
+	<key>ProgramArguments</key>
+    <array>
+        <string>This seems required per documentation</string>
+    </array>
+	<key>RunAtLoad</key>
+  	<true/>
+	<key>MachServices</key>
+		<dict>
+			<key>com.tweaking4all.SMJobBlessHelper</key>
+			<true/>
+		</dict>
+	<key>StandardOutPath</key>
+	<string>/var/log/t4a.stdout</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/t4a.stderr</string>
+</dict>
+</plist>
